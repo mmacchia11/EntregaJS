@@ -1,2 +1,2 @@
 # EntregaJS
-https://github.com/mmacchia11/EntregaJS.git
+ https://mmacchia11.github.io/EntregaJS/
