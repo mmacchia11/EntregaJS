@@ -1,0 +1,81 @@
+.seccion-dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.seccion-dos .titulo-habilidades {
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  flex-wrap: wrap;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.habilidades .habilidad {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  margin: 5px;
+}
+.habilidades .habilidad .titulo-habiludad {
+  text-align: center;
+}
+.habilidades .habilidad .habilidad-info {
+  text-align: center;
+}
+
+.habilidades .habilidad .habilidad-btn {
+  padding: 10px;
+  background-color: #f3a56e;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #e2a87e;
+  font-family: "botones", "Arial";
+  font-size: 15px;
+  color: #fff;
+  width: 100%;
+}
+
+.habilidades .habilidad a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.eliminar {
+  color: #e5e0e0;
+  font-weight: 700;
+  border: 1px red solid;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #9e3636;
+}
+
+@media (max-width: 950px) {
+  /* SECTION HABILIDADES*/
+  .seccion-dos {
+    display: flex;
+    flex-direction: column;
+  }
+  .seccion-dos .habilidad {
+    margin-bottom: 10px;
+  }
+
+  .seccion-dos .habilidades {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* SECTION HABILIDADES END*/
+}
